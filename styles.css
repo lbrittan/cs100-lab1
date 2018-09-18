@@ -1,0 +1,63 @@
+* {
+    font-family: 'Noto Serif JP', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Raleway Dots', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: underline;
+    color: cadetblue;
+    cursor: pointer;
+}
+
+a:hover {
+    color: darkgrey;
+}
+
+button:hover {
+    background-color: darkgrey;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.gallery-image {
+    width: 80px;
+}
+
+button {
+    background-color: cadetblue;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 20px;
+    margin-left: 72px;
+    font-size: 15px;
+}
+
+#galleries {
+    list-style-type: circle;
+}
